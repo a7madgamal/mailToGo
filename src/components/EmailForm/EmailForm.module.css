@@ -1,0 +1,43 @@
+.formContainer {
+  @apply max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-lg;
+}
+
+.inputGroup {
+  @apply mb-6;
+}
+
+.label {
+  @apply block text-sm font-medium text-gray-700 mb-2;
+}
+
+.input {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors;
+}
+
+.textarea {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors min-h-[200px] resize-y;
+}
+
+.error {
+  @apply text-red-500 text-sm mt-1;
+}
+
+.recipientTags {
+  @apply flex flex-wrap gap-2 mt-2;
+}
+
+.recipientTag {
+  @apply bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm flex items-center gap-2;
+}
+
+.removeButton {
+  @apply text-blue-600 hover:text-blue-800 cursor-pointer;
+}
+
+.sendButton {
+  @apply w-full bg-blue-600 text-white py-3 px-6 rounded-md font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.loadingSpinner {
+  @apply animate-spin h-5 w-5 mr-2;
+}
