@@ -92,7 +92,7 @@ export default function EmailForm() {
         formData.subject,
         formData.body
       );
-      window.location.href = mailtoLink;
+      window.open(mailtoLink, "_blank");
     } catch (error) {
       if (error instanceof Error) {
         setErrors([error.message]);
