@@ -1,4 +1,3 @@
-import React from "react";
 import {Mail} from "lucide-react";
 import EmailForm from "./components/EmailForm/EmailForm";
 
@@ -12,7 +11,7 @@ function App() {
             <h1 className="text-3xl font-bold text-gray-900">mailToGo</h1>
           </div>
           <p className="mt-2 text-gray-600">
-            Compose and send email campaigns with ease
+            Compose and send email campaigns with ease.
           </p>
         </div>
       </header>
