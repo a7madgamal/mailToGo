@@ -1,6 +1,6 @@
-import React from 'react';
-import { Mail } from 'lucide-react';
-import EmailForm from './components/EmailForm/EmailForm';
+import React from "react";
+import {Mail} from "lucide-react";
+import EmailForm from "./components/EmailForm/EmailForm";
 
 function App() {
   return (
@@ -11,7 +11,9 @@ function App() {
             <Mail className="h-8 w-8 text-blue-600" />
             <h1 className="text-3xl font-bold text-gray-900">mailToGo</h1>
           </div>
-          <p className="mt-2 text-gray-600">Compose and send emails with ease</p>
+          <p className="mt-2 text-gray-600">
+            Compose and send email campaigns with ease
+          </p>
         </div>
       </header>
 
